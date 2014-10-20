@@ -92,9 +92,7 @@
           <p>Have you used WordPress before?</p>
           <hr>
           <p>What's your favorite thing to do in the fall?</p>
-          <img src="images/summercat.jpg" height="325">
-          <br/>
-          <small><a href="http://cutestcatpics.com/cat-in-summer-hat/">Source</a></small>
+          <img src="images/pumpkincat.jpg" height="325">      
         </section>
         
         <section>
@@ -190,7 +188,7 @@
 
         <section>
           <h3>WordPress.com Add Ons</h3>
-          <img src="images/dotcom_premium.png"/>
+          <img src="images/dotcom_premium.png" width="700"/>
         </section>
 
          <section>
@@ -265,6 +263,10 @@
              <small class="fragment">WordPress calls this the "Famous 5-minute Install," which might be a less than completely accurate. :)</small>
         </section>
 
+        <section>
+        	<h3>Downloading WordPress</h3>
+        	<img src="images/wordpress-files.png">
+        </section>
 
         <section>
         	<h3>Setting up MySQL Database</h3>
@@ -311,30 +313,9 @@ define('DB_COLLATE', '');</code>
         <section>
         	<h3>Last step</h3>
         	<p>Browse to http://mysite.com/<span class="green">wp-admin/install.php</span></p>
-           <img src="images/install.png">
+           <img src="images/install.png" width="500">
            <small class="fragment">Detailed instructions: <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">codex.wordpress.org/Installing_WordPress</a></small>
         </section>
-
-         <section>
-          <h3 class="blue">Let's get started!</h3>
-          <p>Log in to our temporary WordPress site:
-          
-          <p><a href="http://gdidetroit.com/wordpress/wp-admin" target="_blank">http://gdidetroit.com/wordpress/wp-admin</a></p>
-          <br/>
-          <strong>username:</strong> Student
-          <br>
-          <strong>password:</strong> Detroit
-          <br><br>
-          <p>Username &amp; password are case-sensitive!</p>
-          <hr>
-          <p>If you have your own WordPress site already, feel free to use that in class instead of our temporary one.</p>
-        </section>
-
-        <!--<section>
-        	<h3>Installing</h3>
-        	<p>Enter the requested information to set up your new account:</p>
-        	<img src="images/install-screen.png">
-        </section>-->
 
         <section>
   		  <br/>
@@ -369,15 +350,14 @@ define('DB_COLLATE', '');</code>
           <p align="left">The WordPress dashboard is the first screen you see when you log in to administration area of your site.</p> <br/>
           <p align="left">From the dashboard you can access pages, media, site settings, plugins... everything!
           </p>
-          <a href="http://gdidetroit.com/wordpress/wp-admin" target="_blank">Link to my dashboard</a>
         </div>
           <div class="right" style="width: 55%;"><img src="images/dashboard.png" width="500px" alt="the wordpress dashboard" title="the wordpress dashboard" /><br/></div>
         </section>
-       <!--Leeann!-->
+
        <section>
         <h3>Configure Basic Settings</h3>
         <p>The first thing to take care of is configuring our user profile + settings!</p>
-        <img src="images/options-general.png">
+        <img src="images/options-general.png" width="900">
        </section>
        <section>
         <h3>Configure Basic Settings</h3>
@@ -392,7 +372,22 @@ define('DB_COLLATE', '');</code>
           <img src="images/addnewpage.png" alt="publishing a page in WordPress"> <!--turn this image into dashboard link for demo -->
         </section>
         
-      <!--develop it!-->      
+      <!--develop it!-->   
+      <section>
+          <h3 class="blue">Let's get started!</h3>
+          <p>Log in to our temporary WordPress site:
+          
+          <p><a href="http://gdidetroit.com/wordpress/wp-admin" target="_blank">http://gdidetroit.com/wordpress/wp-admin</a></p>
+          <br/>
+          <strong>username:</strong> 
+          <br>
+          <strong>password:</strong> 
+          <br><br>
+          <p>Username &amp; password are case-sensitive!</p>
+          <hr>
+          <p>If you have your own WordPress site already, feel free to use that in class instead of our temporary one.</p>
+        </section>
+
        	<section >
     		<h3>Let's try it!</h3>
 	          <p class="left-align">Create a new page</p>
@@ -672,7 +667,7 @@ define('DB_COLLATE', '');</code>
 
          <section>
           <h3>Theme Reviews and Support</h3>
-            <img src="images/reviews.png" alt="Reviews of the theme"/>      
+            <a href="https://wordpress.org/themes/ridizain" target="_blank"><img src="images/reviews.png" alt="Reviews of the theme" width="800"/></a>  
         </section>
 
         <section>
@@ -758,23 +753,60 @@ define('DB_COLLATE', '');</code>
             </div>
             <li class="fragment">This stylesheet is included <em>after</em> the parent theme's and its styles will therefore override them.</li>
         </section>-->
+<!-- Common Questions -->
 
-        <section>
-         <h3>Migrating Content</h3>
+		<section>
+			<br><br>
+			<img src="images/confused_cat.jpg" title="from http://www.humanewatch.org/images/uploads/confused_cat.jpg">
+			<br><br>
+			<h2>Common Questions</h2></section>
+
+		<section>
+         <h3>Can I migrate my content?</h3>
          <p>There is a handy Import / Export feature in WordPress</p><hr>
          <p>Take your wordpress.com site to .org or vice versa</p><hr>
          <p>Bring your Blogger, Tumblr, Livejournal or other RSS feed in.</p>
          <hr>
          <p>In the Dashboard, visit <strong><span class="pink">Tools > Export</span></strong> and <strong><span class="pink">Tools > Import</span></strong>
         </section>  
+      
+        <section>
+         <h3>Should I be concerned about my site's security?</h3>
+         <p>Many WordPress attacks are carried out autonomously by malicious software bots.</p>
+         <img src="images/robot_sitting.png" alt="cute robot" width="300" />
+         <p>Sure he looks cute...</p><br/>
+        </section>
 
+        <section>
+         <h3>What the bad robots do:</h3>
+         <ul>
+         	<li class="fragment" ><span class="red">Brute Force Attacks</span> – They try to log in.</li>
+         	<li class="fragment" ><span class="red">WP Core Vulnerabilities</span> – They know what's wrong with your version of WP.</li>
+         	<li class="fragment" ><span class="red">Bad Plugins</span> – They inject code into parts of your site.</li>
+         	<li class="fragment" ><span class="red">They watch your files</span> – Permissions, unsecure FTP.</li>
+         </ul>
+         <small class="fragment"><a href="http://codex.wordpress.org/Hardening_WordPress" target="_blank">Learn more: Hardening WordPress</a></small>
+        </section>
+
+        <section>
+         <h3>What about comments?</h3>
+         <p class="left" >By default pages and posts can receive viewer comments</p> 
+         <p class="left" >It's easy to turn this feature off.</p><br/><br/><br/>
+         <p class="left" >You choose how you'd like to manage comments:</p>
+         <ul><li>Only members can post</li>
+         	<li>Only approved comments are published</li>
+         	<li>All comments are immediately published but can be deleted later.</li>
+         </ul>
+        </section>
+
+<!-- Now What? -->
         <section>
         	<h3>My WordPress Site is all set up! Now what?</h3>
         		<img class="fragment" src="images/congratulationscat.jpg" width="350">
 
         		<p class="fragment pink"><strong>1. Congratulations!</strong></p>
         </section>
-        
+
         <section>
         	<h3>My WordPress Site is all set up! Now what?</h3>
         	<img src="images/mechaniccat.jpg" width="300">	<br>
@@ -812,42 +844,6 @@ define('DB_COLLATE', '');</code>
         	<small><p class="fragment">There's much more out there! If you find something extra awesome, tweet it to me. :)</p></small>
         </section>
 
-        <!--Common Questions-->
-
-        <!--
-      
-        <section>
-         <h3>Should I be concerned about my site's security?</h3>
-         <p>Many WordPress attacks are carried out autonomously by malicious software bots.</p>
-         <img src="images/robot_sitting.png" alt="cute robot" width="300" />
-         <p>Sure he looks cute...</p><br/>
-        </section>
-
-        <section>
-         <h3>What the bad robots do:</h3>
-         <ul>
-         	<li class="fragment" ><span class="red">Brute Force Attacks</span> – They try to log in.</li>
-         	<li class="fragment" ><span class="red">WP Core Vulnerabilities</span> – They know what's wrong with your version of WP.</li>
-         	<li class="fragment" ><span class="red">Bad Plugins</span> – They inject code into parts of your site.</li>
-         	<li class="fragment" ><span class="red">They watch your files</span> – Permissions, unsecure FTP.</li>
-         </ul>
-         <small class="fragment"><a href="http://codex.wordpress.org/Hardening_WordPress" target="_blank">Learn more: Hardening WordPress</a></small>
-        </section>
-
-        <section>
-         <h3>What about comments?</h3>
-         <p class="left" >By default pages and posts can receive viewer comments</p> 
-         <p class="left" >It's easy to turn this feature off.</p><br/><br/><br/>
-         <p class="left" >You choose how you'd like to manage comments:</p>
-         <ul><li>Only members can post</li>
-         	<li>Only approved comments are published</li>
-         	<li>All comments are immediately published but can be deleted later.</li>
-         </ul>
-        </section>
-
-        !-->
-
-
       <!-- Upcoming GDI Events -->
       <section>
         <h3>Upcoming Girl Develop It - Detroit Events!</h3>
@@ -874,7 +870,7 @@ define('DB_COLLATE', '');</code>
           <p>We're here to help!</p>
           <img src="images/questions_cat.jpg" alt="Confused? Let us help!" />
           <p>
-          	<a href="mailto:leeanndrees@gmail.com">leeann.drees@gmail.com</a> Twitter: @leeanndrees<br/>
+          	<a href="mailto:leeann@girldevelopit.com">leeann@girldevelopit.com</a> Twitter: @leeanndrees<br/>
           	<a href="mailto:detroit@girldevelopit.com">detroit@girldevelopit.com</a> Twitter: @gdiDet<br/>  
           </p>
         </section>
