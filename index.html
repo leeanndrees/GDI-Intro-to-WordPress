@@ -210,7 +210,7 @@
         <section>
           <br/><br/><br/>
           <p class="blue">We'll focus on <span class="pink">self-hosted, wordpress.org sites</span> in our class today.</p>
-          <p>Though, many features are available on both platforms. </p>
+          <p>Many features are available on both platforms. </p>
         </section>
 
          <section>
@@ -326,7 +326,7 @@ define('DB_COLLATE', '');</code>
         <section>
           <h3>Local WordPress Instances</h3>
           <p>Today we'll be working with local installations of WordPress.</p>
-          <p>Local installations exist only on your computer, not on the web.</p>
+          <p>Local installations live on your computer, not on the web.</p>
           <p>If you haven't already, complete a local installation by visiting <a href="https://bitnami.com/stack/wordpress/installer" target="_blank">https://bitnami.com/stack/wordpress/installer</a> and following the instructions to install <strong>WordPress 4.1.1-0</strong> on your machine.</p>
           <hr>
           <p><strong class="red">STUCK?</strong> Raise your hand!</p>
@@ -353,9 +353,17 @@ define('DB_COLLATE', '');</code>
 
         <section>
         	<h3>Logging in</h3>
-        	<p><strong>To administer your website, you will always need to log in:</strong></p>
-            <p><strong>On the web</strong>: http://yourdomain.com<span class="green">/wp-admin</span></p>
-            <p><strong>Locally</strong>:
+        	<p><strong>To administer your website, you'll always need to log in:</strong></p>
+          <hr>
+            <p><strong>On the web</strong>:<br> http://yourdomain.com<strong><span class="red">/wp-admin</span></strong></p>
+          <hr>
+            <p><strong>Locally</strong>:</p>
+            <ul>
+              <li>In Bitnami manager, click "Go to Application"</li>
+              <li>Click "Access Bitnami WordPress Stack"</li>
+              <li>Add <strong><span class="red">/wp-admin</span></strong> to the end of the local URL in your browser</li> 
+            </ul>
+            <p style="font-size:85%;"><strong>example</strong>: http://localhost:8080/wordpress<strong><span class="red">/wp-admin</span></strong></p>
 
         </section>
 
@@ -409,7 +417,7 @@ define('DB_COLLATE', '');</code>
     		<h3>Let's try it!</h3>
 	          <p class="left-align">Create a new page</p>
 	          <hr>
-	          <p class="left-align">Give it your name as the title</p>
+	          <p class="left-align">Give it a fun title</p>
 	          <hr>
 	    	  <p class="left-align">Write three paragraphs of text (or lorem ipsum?)</p>
 	    	  <hr>
@@ -436,7 +444,7 @@ define('DB_COLLATE', '');</code>
            <img src="images/visualeditor.png" alt="visual editor" width="100%" height="auto"/></p>
 	      </div>
 	      <div style="float:right; width:45%;">
-         <p><span class="pink"><strong>The Text Editor</strong></span>: Makes code nerds really happy!</p>
+         <p><span class="pink"><strong>The Text Editor</strong></span>: Pure HTML. Makes code nerds really happy!</p>
                   <img src="images/texteditor.png" alt="text editor" width="100%" height="auto"/>
 
      		</div>
