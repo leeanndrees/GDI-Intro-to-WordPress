@@ -9,10 +9,10 @@ The course is intended to be one overview session, lasting 4 hours with lots of 
 
 Topics:
 
--What is WordPress?
--Installing WordPress
--The Dashboard
--Publishing our own Pages & Posts
--Widgets, Menus, & Plugins
--Themes
--Questions
+- What is WordPress?
+- Installing WordPress
+- The Dashboard
+- Publishing our own Pages & Posts
+- Widgets, Menus, & Plugins
+- Themes
+- Questions
