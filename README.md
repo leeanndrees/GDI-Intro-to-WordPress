@@ -1,6 +1,18 @@
-GDI-Intro-to-WordPress
+Intro to WordPress
 ======================
 
-Girl Develop It Detroit Intro to WordPress Curriculum
+Girl Develop It Detroit Intro to WordPress Curriculum. [View the slides](http://leeanndrees.github.io/GDI-Intro-to-WordPress/).
 
-This is a Girl Develop It WordPress curriculum. Designed originally by Laura Eagin and Leeann Drees for GDI Detroit. The course is intended to be one overview session, lating 4 hours. We hope that you will build on this curriculum and turn it into an even more awesome class. Oh, and WordPress is awesome! Go Girl Developers!
+This is a Girl Develop It WordPress curriculum, originally created by [Leeann Drees](http://leeanndrees.com) and [Laura Eagin](http://lauraeagin.com) for the Detroit chapter of Girl Develop It.
+
+The course is intended to be one overview session, lasting 4 hours with lots of hands-on time for students. 
+
+Topics:
+
+-What is WordPress?
+-Installing WordPress
+-The Dashboard
+-Publishing our own Pages & Posts
+-Widgets, Menus, & Plugins
+-Themes
+-Questions
