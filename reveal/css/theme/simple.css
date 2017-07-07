@@ -119,34 +119,21 @@ body {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
-.reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
-  border-right-color:  #f05b62; }
+ .reveal .controls div.left {
+ 	border-right-color: #f05b62;
+ }
 
+ .reveal .controls div.right {
+ 	border-left-color: #f05b62;
+ }
 
-.reveal .controls div.navigate-right,
-.reveal .controls div.navigate-right.enabled {
-  border-left-color:  #f05b62; }
+ .reveal .controls div.up {
+ 	border-bottom-color: #f05b62;
+ }
 
-.reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color:  #f05b62; }
-
-.reveal .controls div.navigate-down,
-.reveal .controls div.navigate-down.enabled {
-  border-top-color:  #f05b62; }
-
-.reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #53555C; }
-
-.reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #53555C }
-
-.reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #53555C; }
-
-.reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #53555C; }
+ .reveal .controls div.down {
+ 	border-top-color: #f05b62;
+ }
 
 /*********************************************
  * PROGRESS BAR
@@ -169,7 +156,7 @@ body {
     width: 100%;
     bottom: 3px;
     left: 0;
-    z-index: 10; 
+    z-index: 10;
     font-size: 35%;
     text-align:left;
     background-image: url(../images/pink-logo.png);
