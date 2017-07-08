@@ -54,6 +54,10 @@ body {
 .left {float: left;}
 .right {float: right;}
 
+.reveal .slides>section {
+  top: 80px!important;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
